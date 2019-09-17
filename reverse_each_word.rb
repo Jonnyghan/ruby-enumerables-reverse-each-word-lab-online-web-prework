@@ -5,6 +5,6 @@ array=string.split(" ")
 array.each do |word|
  reverse.push(word.reverse)
  end
-reverse
+reverse.join(" ")
 binding.pry 
 end
