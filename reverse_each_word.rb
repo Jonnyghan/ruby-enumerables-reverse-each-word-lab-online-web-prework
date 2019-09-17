@@ -6,5 +6,4 @@ array.each do |word|
  reverse.push(word.reverse)
  end
 reverse.join(" ")
-binding.pry 
 end
